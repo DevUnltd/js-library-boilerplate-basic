@@ -1,10 +1,10 @@
  <div align="center">
- <img align="center" width="180" src="https://franciscohodge.com/project-pages/js-library-boilerplate/images/JSLB2.png" />
+ <img align="center" width="180" src="https://franciscohodge.com/project-pages/js-library-boilerplate/images/JSLB2Basic2.png" />
   <h2>Javascript Library Boilerplate Basic</h2>
   <blockquote>Minimal Library Starter Kit for your Javascript projects</blockquote>
   <a href="https://travis-ci.org/hodgef/js-library-boilerplate-basic"><img src="https://travis-ci.org/hodgef/js-library-boilerplate-basic.svg?branch=master" /></a> <img src="https://img.shields.io/david/hodgef/js-library-boilerplate-basic.svg" /> <a href="https://david-dm.org/hodgef/js-library-boilerplate-basic?type=dev"><img src="https://img.shields.io/david/dev/hodgef/js-library-boilerplate-basic.svg" /></a> <img src="https://api.dependabot.com/badges/status?host=github&repo=hodgef/js-library-boilerplate-basic" />
  
- #### For a more complete boilerplate, check out [js-library-boilerplate](https://github.com/hodgef/js-library-boilerplate).
+ #### This is a basic library boilerplate. For a more robust boilerplate, check out [js-library-boilerplate](https://github.com/hodgef/js-library-boilerplate).
 
 </div>
 
