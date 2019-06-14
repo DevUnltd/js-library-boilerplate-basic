@@ -1,11 +1,12 @@
 {
   "name": "@hodgef/js-library-boilerplate-basic",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Javascript Minimal Starter Kit for building libraries",
   "main": "build/index.js",
   "scripts": {
     "build": "webpack",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
