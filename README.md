@@ -1,12 +1,12 @@
- <div align="center">
- <img align="center" width="180" src="https://franciscohodge.com/project-pages/js-library-boilerplate/images/JSLB2Basic.png" />
+ <div>
+ <img width="180" src="https://franciscohodge.com/project-pages/js-library-boilerplate/images/JSLB2Basic.png" />
   <h2>Javascript Library Boilerplate Basic</h2>
   <blockquote>Minimal Library Starter Kit for your Javascript projects</blockquote>
   <a href="https://travis-ci.org/hodgef/js-library-boilerplate-basic"><img src="https://travis-ci.org/hodgef/js-library-boilerplate-basic.svg?branch=master" /></a> <img src="https://img.shields.io/david/hodgef/js-library-boilerplate-basic.svg" /> <a href="https://david-dm.org/hodgef/js-library-boilerplate-basic?type=dev"><img src="https://img.shields.io/david/dev/hodgef/js-library-boilerplate-basic.svg" /></a> <img src="https://api.dependabot.com/badges/status?host=github&repo=hodgef/js-library-boilerplate-basic" />
 
 </div>
 
-### For a more complete boilerplate, check out [js-library-boilerplate](https://github.com/hodgef/js-library-boilerplate).
+#### For a more complete boilerplate, check out [js-library-boilerplate](https://github.com/hodgef/js-library-boilerplate).
 
 ## ⭐️ Features
 
@@ -50,7 +50,7 @@ let libraryInstance = new MyLibrary();
 ...
 ```
 
-> **Note:** In this minimal version, images and css files are included in the js bundle. If you want them as separate files, you can use [js-library-boilerplate](https://github.com/hodgef/js-library-boilerplate) or edit the Webpack config accordingly.
+> **Note:** In this minimal version, any images and css files you import will be added to the js bundle. If you want them as separate files, you can use [js-library-boilerplate](https://github.com/hodgef/js-library-boilerplate) or edit the Webpack config accordingly.
 
 ## ✅ Libraries built with this boilerplate
 
