@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "test": "jest",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "trypublish": "npm publish || true"
   },
   "repository": {
     "type": "git",
