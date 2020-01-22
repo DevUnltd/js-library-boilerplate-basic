@@ -1,6 +1,6 @@
 {
   "name": "@hodgef/js-library-boilerplate-basic",
-  "version": "1.1.17",
+  "version": "1.2.0",
   "description": "Javascript Minimal Starter Kit for building libraries",
   "main": "build/index.js",
   "scripts": {
@@ -34,7 +34,7 @@
     "babel-preset-minify": "^0.5.0",
     "css-loader": "^3.4.2",
     "file-loader": "^5.0.2",
-    "jest": "^24.8.0",
+    "jest": "^25.1.0",
     "prettier": "^1.19.1",
     "prettier-webpack-plugin": "^1.2.0",
     "style-loader": "^1.1.3",
