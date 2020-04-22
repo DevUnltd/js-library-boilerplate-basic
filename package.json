@@ -35,7 +35,7 @@
     "css-loader": "^3.5.2",
     "file-loader": "^6.0.0",
     "jest": "^25.4.0",
-    "prettier": "^2.0.4",
+    "prettier": "^2.0.5",
     "prettier-webpack-plugin": "^1.2.0",
     "style-loader": "^1.1.4",
     "url-loader": "^4.1.0",
