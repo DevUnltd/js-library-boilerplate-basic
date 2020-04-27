@@ -37,7 +37,7 @@
     "jest": "^25.4.0",
     "prettier": "^2.0.5",
     "prettier-webpack-plugin": "^1.2.0",
-    "style-loader": "^1.1.4",
+    "style-loader": "^1.2.0",
     "url-loader": "^4.1.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
