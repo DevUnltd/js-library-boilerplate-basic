@@ -1,5 +1,5 @@
  <div align="center">
- <img align="center" width="180" src="https://franciscohodge.com/project-pages/js-library-boilerplate/images/JSLB2Basic2.png" />
+ <img align="center" width="180" src="https://i.imgur.com/pGGFGpi.png" />
   <h2>Javascript Library Boilerplate Basic</h2>
   <blockquote>Minimal Library Starter Kit for your Javascript projects</blockquote>
  
