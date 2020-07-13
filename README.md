@@ -38,7 +38,7 @@ npm install
 ### npm
 ```
 import MyLibrary from 'my-library';
-let libraryInstance = new MyLibrary();
+const libraryInstance = new MyLibrary();
 ...
 ```
 
@@ -46,8 +46,8 @@ let libraryInstance = new MyLibrary();
 ```
 <script src="build/index.js"></script>
 
-let MyLibrary = window.MyLibrary.default;
-let libraryInstance = new MyLibrary();
+const MyLibrary = window.MyLibrary.default;
+const libraryInstance = new MyLibrary();
 ...
 ```
 
