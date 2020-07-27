@@ -32,7 +32,7 @@
     "@babel/preset-env": "^7.10.4",
     "babel-loader": "^8.1.0",
     "babel-preset-minify": "^0.5.0",
-    "css-loader": "^3.6.0",
+    "css-loader": "^4.0.0",
     "file-loader": "^6.0.0",
     "jest": "^26.1.0",
     "prettier": "^2.0.5",
