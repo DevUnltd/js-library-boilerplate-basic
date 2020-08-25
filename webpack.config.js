@@ -23,6 +23,7 @@ const banner = `
 
 module.exports = {
   mode: "production",
+  devtool: 'source-map',
   entry: './src/index.js',
   output: {
     filename: 'index.js',
