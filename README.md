@@ -11,7 +11,7 @@
 
 ## ⭐️ Features
 
-- Webpack 4
+- Webpack 5
 - Babel 7
 - UMD exports, so your library works everywhere.
 - Jest unit testing
