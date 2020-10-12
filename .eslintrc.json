@@ -1,0 +1,28 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "plugins": [],
+    "extends": ["eslint:recommended"],
+    "rules": {
+        "comma-dangle": 0,
+        "no-unused-vars": "warn",
+        "no-unexpected-multiline": "warn",
+        "prefer-const": "warn"
+    },
+    "settings": {},
+    "env": {
+        "browser": true,
+        "node": true,
+        "jasmine": true,
+        "jest": true,
+        "es6": true
+    }
+}
