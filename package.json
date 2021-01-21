@@ -5,6 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "build": "webpack",
+    "watch": "webpack --watch",
     "test": "jest",
     "prepare": "npm run build",
     "trypublish": "npm publish || true"
