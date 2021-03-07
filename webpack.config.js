@@ -30,7 +30,8 @@ module.exports = {
     filename: 'index.js',
     path: path.resolve(__dirname, 'build'),
     library: 'MyLibrary',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    clean: true
   },
   optimization: {
     minimize: true,
