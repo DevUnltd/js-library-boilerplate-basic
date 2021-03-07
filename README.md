@@ -1,5 +1,5 @@
  <div align="center">
- <img align="center" width="180" src="https://i.imgur.com/pGGFGpi.png" />
+ <img align="center" width="230" src="https://i.imgur.com/pGGFGpi.png" />
   <h2>Javascript Library Boilerplate Basic</h2>
   <blockquote>Minimal Library Starter Kit for your Javascript projects</blockquote>
  
