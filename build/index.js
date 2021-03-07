@@ -1,9 +1,9 @@
 /*!
  * 
- *   @hodgef/js-library-boilerplate-basic v1.4.118
+ *   @hodgef/js-library-boilerplate-basic v1.5.0
  *   https://github.com/hodgef/js-library-boilerplate-basic
  *
- *   Copyright (c) Francisco Hodge (https://github.com/hodgef)
+ *   Copyright (c) Francisco Hodge (https://github.com/hodgef) and project contributors.
  *
  *   This source code is licensed under the MIT license found in the
  *   LICENSE file in the root directory of this source tree.

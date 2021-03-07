@@ -1,11 +1,11 @@
 {
   "name": "@hodgef/js-library-boilerplate-basic",
-  "version": "1.4.118",
+  "version": "1.5.0",
   "description": "Javascript Minimal Starter Kit for building libraries",
   "main": "build/index.js",
   "scripts": {
+    "start": "webpack serve",
     "build": "webpack",
-    "watch": "webpack --watch",
     "test": "jest",
     "prepare": "npm run build",
     "trypublish": "npm publish || true"
@@ -44,9 +44,9 @@
     "terser-webpack-plugin": "^5.1.1",
     "url-loader": "^4.1.1",
     "webpack": "^5.24.3",
-    "webpack-cli": "^4.5.0"
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "4.0.0-beta.0"
   },
-  "dependencies": {},
   "jest": {
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/scripts/testMock.js",
