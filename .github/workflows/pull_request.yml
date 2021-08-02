@@ -1,15 +1,11 @@
-name: Build
+name: Build PR (Standard)
 
-on:
-  push:
-    paths-ignore:
-      - README.md
-      - .gitignore
-      - .github/**
+on: pull_request
 
 jobs:
   build:
     runs-on: ${{ matrix.os }}
+    if: ${{ github.actor != 'dependabot[bot]' }}
     strategy:
       matrix:
         node-version: [12.x]
