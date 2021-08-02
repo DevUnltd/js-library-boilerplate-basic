@@ -6,10 +6,5 @@ updates:
     interval: daily
     time: "04:00"
     timezone: America/Montreal
-  open-pull-requests-limit: 20
+  open-pull-requests-limit: 5
   versioning-strategy: increase
-  ignore:
-  - dependency-name: webpack
-    versions:
-    - 5.20.0
-    - 5.34.0
