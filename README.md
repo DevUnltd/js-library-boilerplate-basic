@@ -3,7 +3,7 @@
   <h2>Javascript Library Boilerplate Basic</h2>
   <blockquote>Minimal Library Starter Kit for your Javascript projects</blockquote>
  
- <a href="https://github.com/hodgef/js-library-boilerplate-basic/actions"><img alt="Build Status" src="https://github.com/hodgef/js-library-boilerplate-basic/workflows/Build/badge.svg?color=green" /></a> <a href="https://github.com/hodgef/js-library-boilerplate-basic/actions"> <img alt="Publish Status" src="https://github.com/hodgef/js-library-boilerplate-basic/workflows/Publish/badge.svg?color=green" /></a>
+ <a href="https://www.npmjs.com/package/@hodgef/js-library-boilerplate-basic"><img src="https://badgen.net/npm/v/@hodgef/js-library-boilerplate-basic?color=blue" alt="npm version"></a> <a href="https://github.com/hodgef/js-library-boilerplate-basic/actions"><img alt="Build Status" src="https://github.com/hodgef/js-library-boilerplate-basic/workflows/Build/badge.svg?color=green" /></a> <a href="https://github.com/hodgef/js-library-boilerplate-basic/actions"> <img alt="Publish Status" src="https://github.com/hodgef/js-library-boilerplate-basic/workflows/Publish/badge.svg?color=green" /></a>
  
 <strong>If you like TypeScript, check out [ts-library-boilerplate-basic](https://github.com/hodgef/ts-library-boilerplate-basic).</strong><br />
 <strong>Want a more robust (yet bulkier) alternative? Check out [js-library-boilerplate](https://github.com/hodgef/js-library-boilerplate).</strong><br />
