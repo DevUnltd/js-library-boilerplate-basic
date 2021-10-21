@@ -16,6 +16,7 @@
 - Hot reloading (`npm start`)
 - UMD exports, so your library works everywhere.
 - Jest unit testing
+- Customizable file headers for your build [(Example 1)](https://github.com/hodgef/js-library-boilerplate-basic/blob/master/build/index.js) [(Example2)](https://github.com/hodgef/js-library-boilerplate-basic/blob/master/build/css/index.css)
 - Daily [dependabot](https://dependabot.com) dependency updates
 
 ## 📦 Getting Started
@@ -55,8 +56,6 @@ const MyLibrary = window.MyLibrary.default;
 const libraryInstance = new MyLibrary();
 ...
 ```
-
-> **Note:** In this minimal version, any images and css files you import will be added to the js bundle. If you want them as separate files, you can use [js-library-boilerplate](https://github.com/hodgef/js-library-boilerplate) or edit the Webpack config accordingly.
 
 ## ✅ Libraries built with this boilerplate
 

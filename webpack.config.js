@@ -3,6 +3,8 @@ const webpack = require('webpack');
 const PrettierPlugin = require("prettier-webpack-plugin");
 const TerserPlugin = require('terser-webpack-plugin');
 const getPackageJson = require('./scripts/getPackageJson');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 const {
   version,
@@ -25,7 +27,7 @@ const banner = `
 module.exports = {
   mode: "production",
   devtool: 'source-map',
-  entry: './src/index.js',
+  entry: './src/lib/index.js',
   output: {
     filename: 'index.js',
     path: path.resolve(__dirname, 'build'),
@@ -35,16 +37,16 @@ module.exports = {
   },
   optimization: {
     minimize: true,
-    minimizer: [new TerserPlugin({
-      extractComments: false
-    })],
-  },
-  devServer: {
-    open: true,
-    hot: true,
-    host: "localhost",
-    static: path.join(__dirname, 'demo'),
-    port: 9000
+    minimizer: [
+      new TerserPlugin({ extractComments: false}),
+      new OptimizeCSSAssetsPlugin({
+        cssProcessorOptions: {
+          map: {
+            inline: false
+          }
+        }
+      }),
+    ]
   },
   module: {
     rules: [
@@ -56,17 +58,19 @@ module.exports = {
         }
       },
       {
-        test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
-      },
-      {
-        test: /\.(png|jpe?g|gif|svg|eot|ttf|woff|woff2)$/,
-        use: ['url-loader'],
+        test: /\.(sa|sc|c)ss$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          { loader: "css-loader", options: { sourceMap: true } },
+        ],
       }
     ]
   },
   plugins: [
     new PrettierPlugin(),
+    new MiniCssExtractPlugin({
+      filename: 'css/index.css'
+    }),
     new webpack.BannerPlugin(banner)
   ]
 };
