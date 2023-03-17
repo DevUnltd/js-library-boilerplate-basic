@@ -41,7 +41,7 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^29.5.0",
-    "mini-css-extract-plugin": "^2.7.3",
+    "mini-css-extract-plugin": "^2.7.5",
     "style-loader": "^3.3.2",
     "terser-webpack-plugin": "^5.3.7",
     "url-loader": "^4.1.1",
